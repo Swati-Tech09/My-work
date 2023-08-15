@@ -24,6 +24,13 @@ public class cloudVendorController {
 
     }
 
+    @GetMapping("{vendorName}")
+    public CloudVendor getCloudVendor(@PathVariable String vendorName)
+    {
+        return cloudVendorServiceImpl.getCloudVendorName(vendorName);
+
+    }
+
     @GetMapping
     public List<CloudVendor> getCloudVendorDetails()
     {

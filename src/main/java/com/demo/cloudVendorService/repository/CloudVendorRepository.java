@@ -8,4 +8,5 @@ import java.util.Optional;
 
 
 public interface CloudVendorRepository extends JpaRepository<CloudVendor,String> {
+    CloudVendor findByName(String vendorName);
 }
