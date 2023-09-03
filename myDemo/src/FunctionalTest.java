@@ -1,5 +1,3 @@
-package src.main.java.org.example;
-
 import java.util.function.Function;
 public class FunctionalTest {
     public static void main(String[] args) {
